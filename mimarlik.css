@@ -1,0 +1,52 @@
+/** Structure **/
+
+body {
+    text-align: center;
+    padding-right: 5em;
+    padding-left: 5em;
+    background-color: #e8cefb;
+}
+
+#text-align {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#text-color {
+    color: #7d00d6;
+}
+
+.main-color {
+    color: #4B0082;
+}
+
+p {
+    color: black;
+    text-align: justify;
+}
+
+.list-align {
+    list-style-type: upper-roman;
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+ol li::marker{
+    font-weight: bold !important;
+}
+
+ul li {
+    padding-bottom: 1rem;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/** About - Us **/
+
+mark {
+    background-color: #ff7b00;
+    color: black;
+}
+
