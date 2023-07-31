@@ -1,5 +1,11 @@
 /** Structure **/
 
+ul li {
+	list-style: circle;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     text-align: center;
     padding-right: 5em;
@@ -13,8 +19,8 @@ body {
     text-align: center;
 }
 
-#text-color {
-    color: #7d00d6;
+.text-color {
+    color: #ff8c00;
 }
 
 .main-color {
@@ -39,8 +45,7 @@ ol li::marker{
 
 ul li {
     padding-bottom: 1rem;
-    padding-right: 0;
-    padding-left: 0;
+    align-items: center;
 }
 
 /** About - Us **/
